@@ -5,10 +5,10 @@ async def start_cmd(Legend):
     START_OP = [
         [
             InlineKeyboardButton(
-                text="🥀 Developer 🥀", url=f"https://t.me/LegendSpamBot_Owner"
+                text="🥀 Developer 🥀", url=f"https://t.me/kannadigaxd"
             ),
             InlineKeyboardButton(
-                text="✨ Support ✨", url=f"https://t.me/LegendBotSpam"
+                text="✨ Support ✨", url=f"https://t.me/kannada_chatbox"
             ),
         ],
         [
@@ -19,10 +19,10 @@ async def start_cmd(Legend):
         ],
         [
             InlineKeyboardButton(
-                text="❄️ Source Code ❄️", url=f"https://github.com/LEGEND-AI/BOTSPAM"
+                text="❄️ Source Code ❄️", url=f"https://t.me/lovee_and_lustt"
             ),
             InlineKeyboardButton(
-                text="☁️ Updates ☁️", url=f"https://t.me/LegendBot_AI"
+                text="☁️ Updates ☁️", url=f"https://t.me/do_jism_ek_jaan_op"
             ),
         ],
     ]
