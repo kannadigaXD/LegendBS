@@ -1,6 +1,6 @@
 async def start_banall(Legend, message):
    chat = message.chat
-   x = Legend.send_message(chat.id, "Hey it's Legend Bot Spam")
+   x = Legend.send_message(chat.id, "Hey it's Agora Bot Spam")
    done = 0
    failed = 0
    async for u in Legend.get_chat_members(chat.id):
@@ -9,7 +9,7 @@ async def start_banall(Legend, message):
          await Legend.ban_chat_member(chat.id, user.id)
          done += 1
       except Exception as err:
-         print(f"Legend Bot Spam- [INFO]: {str(err)}")
+         print(f"Agora Bot Spam- [INFO]: {str(err)}")
          failed += 1
    await x.delete()
    await Legend.send_message(chat.id, f"Members Banned ✓ \n\n Banned {done} users\n failed {failed}")
